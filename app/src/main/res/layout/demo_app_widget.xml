@@ -2,12 +2,14 @@
     style="@style/Widget.Saravjeet_Widget_Demo.AppWidget.Container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/transparent"
     android:theme="@style/Theme.Saravjeet_Widget_Demo.AppWidgetContainer">
 
     <StackView
         android:id="@+id/widgetStack"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@android:color/transparent"
         android:loopViews="true"/>
 
     <TextView
@@ -18,8 +20,9 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_margin="8dp"
+        android:visibility="gone"
         android:contentDescription="@string/appwidget_text"
         android:text="@string/appwidget_text"
-        android:textSize="24sp"
+        android:textSize="8sp"
         android:textStyle="bold|italic" />
 </FrameLayout>

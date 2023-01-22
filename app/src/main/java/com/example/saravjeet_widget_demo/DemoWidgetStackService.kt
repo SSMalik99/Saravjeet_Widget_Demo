@@ -14,7 +14,7 @@ class DemoWidgetStackService: RemoteViewsService() {
 }
 
 class DemoWidgetStackViewsFactory (context: Context):RemoteViewsService.RemoteViewsFactory{
-    var numberOfImages = 0
+    var numberOfImages = 5
     val myContext = context
 
     override fun onCreate()  {
